@@ -1,0 +1,332 @@
+{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    width:100%;
+    background-color: rgb(255, 20, 20);
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.header{
+    position: relative;
+    height: 420px
+}
+.image-container{
+    position: relative;
+    width:100%;
+   height: 420px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+
+}
+.header-body-section{
+    position: absolute;
+    top:0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+}
+.nav{
+    font-weight: 550;
+    height: 50px;
+    
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
+.logocontainer p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nav ul li a{
+    color:inherit;
+    text-decoration: none;
+
+}
+.Zomato-Logo{
+    width: 300px;
+
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    top: -50px;;
+}
+.header-body-section-discover{
+    font-size: 40px;
+    margin: 25px 0;
+    padding: bottom 200px; ;
+}
+.search{
+    display: flex;
+    width: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left:  10px;
+    font-size: 15px;
+    
+}
+.search p{
+    color: grey;
+    border-right: 1px solid  grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(255, 20, 20);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search i{
+    color: grey;
+    padding-left: 10px;
+}
+
+
+    
+
+
+.section-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+    .container-feature{
+        display: flex;
+        justify-content: space-between;
+    }
+    .features{
+        overflow: hidden;
+        border-radius: 20px ;
+        border: 0.1px solid rgba(101, 100, 100, 0.901);
+    }
+    .feature-image{
+        width: 350px;
+        height: 200px;
+        overflow: hidden;
+    }
+    .feature-image img{
+        width: 100%;
+        background-position: 100px;
+    }
+    .feature h3,
+    .feature p{
+        padding-left: 20px;
+    }
+    .feature:hover{
+        transition: transform 0.75;
+        transform: scale(1.04);
+        cursor: pointer;
+    }
+    .section{
+        padding: 100px 0;
+    }
+
+
+
+
+
+    .section-2-left h1{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .section-2-left p{
+        font-size: 20px;
+        margin-top: 0;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+    .section-2-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .section-2-Right{
+        align-self: flex-end;
+        color: black;
+    }
+    .section-2-item{
+        max-width: 267px;
+        height: 320px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 0.7em;
+    }
+    .section-2-item:first-child{
+        margin-left:0;
+    }
+    .section-2-item img{
+        width: 100%;
+        height: 100%;
+        box-shadow: inset -50px -50px 50px rgba(0,0,0,0.2),
+        inset 50px 50px 50px white;
+    }
+    .section-2-image-describtion{
+        padding: 0 10px;
+        position:absolute;
+        z-index: 2;
+        bottom: 0;
+        background: rgb(0,0,0,0.1);
+        width: 100%;
+        color: rgba(255, 255, 255, 0.779);
+    }
+    .section-2-image-describtion p{
+        margin:0;
+        font-size: 19px;
+    }
+    .section-2-image-describtion p:nth-child(2){
+        font-size: 18px;
+    }
+    
+    
+    .card-4 {
+        display: flex;
+    }
+
+    .section-2-item{
+        margin: 20px 30px 10px;
+    }
+
+    #img-1{
+        margin-left: 98px;
+    }
+    
+
+    .section-4{
+        margin-bottom: 110px;
+    }
+    .section-4 h1{
+        font-size: 1,9rem;
+        font-weight: lighter;
+        color: black;
+        
+    }
+    .section-4 h4{
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+        font-weight: lighter;
+        color: black;
+    }
+    .section-4 a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 0.95rem;
+    }
+    .section-4 i{
+        font-size: 0.3rem;
+        padding: 6px 5px;
+        color: rgb(255, 255, 255);
+    }
+    .end-column a{
+        width: 190px;
+        font-size: 1rem;
+        font-weight: lighter;
+        display: inline-block;
+        margin: 15px 0;
+        color: white;
+    }
+    .first img{
+        width: 120px;
+        height: 32px;
+    }
+    .section-6{
+        padding: 40px 120px;
+        background-color: white;
+
+    }
+    .first{
+        display: flex;
+        justify-content: space-between;
+    }
+    .first-1{
+        display: flex;
+    }
+    .second{
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+    }
+    .second div{
+        width: 200px;
+    }
+    .second h4{
+        font-weight: lighter;
+        color: black;
+        white-space: nowrap;
+    }
+    .second a{
+        display: inline-block;
+        width: 200px;
+        margin-bottom: 7px;
+        white-space: nowrap;
+        text-decoration: none;
+        color: black;
+        size: 0.9rem;
+    }
+
+.lst1{
+    list-style: inline;
+    list-style-type:none;
+
+    }
+    .second img{
+        width: 137px;
+        height: 40px;
+        margin-top: 11px;
+        cursor: pointer;
+    }
+    .box-4{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-4 i{
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .third{
+        padding: 10px 0;
+        color: black;
+        font-size: 0.9rem;
+    }
